@@ -1,0 +1,33 @@
+{
+  "name": "salary",
+  "version": "0.0.1",
+  "description": "API para consultar el IR e INSS de un salario fijo en Nicaragua",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apinic/salary.git"
+  },
+  "keywords": [
+    "apinic",
+    "salary",
+    "nicaragua",
+    "inss",
+    "ir"
+  ],
+  "author": "Paulo McNally <paulomcnally@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/apinic/salary/issues"
+  },
+  "homepage": "https://github.com/apinic/salary#readme",
+  "dependencies": {
+    "hapi": "11.1.2",
+    "nicaragua-salary": "0.0.2"
+  },
+  "engines": {
+    "node": "4.2.2"
+  }
+}
