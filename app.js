@@ -12,6 +12,15 @@ server.connection({
 // Add the route
 server.route({
     method: 'GET',
+    path:'/',
+    handler: function(request, reply) {
+      reply.redirect('http://www.apinic.org/salario');
+    }
+});
+
+// Add the route
+server.route({
+    method: 'GET',
     path:'/v1/calculate',
     handler: versions.v1
 });
